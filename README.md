@@ -1,4 +1,5 @@
-# Accenture: Data-Analytics and Visualization Virtual-Internship [Certificate](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/blob/main/Certificate.pdf)
+# Accenture: Data-Analytics and Visualization Virtual-Internship 
+* [Certificate](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/blob/main/Certificate.pdf)
 
 
 ## Project Understanding:
