@@ -1,6 +1,5 @@
-![image](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/assets/42047546/324bcab3-94d1-4d8c-b375-4ae14f7a6786)![image](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/assets/42047546/80b060f2-313a-4e95-9d5c-6be544e62390)# Accenture-Data-Analytics-and-Visualization-Virtual-Internship
-## Certificate:
-[Certificate](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Accenture%20North%20America_Data%20Analytics_completion_certificate.pdf)
+# Accenture-Data-Analytics-and-Visualization-Virtual-Internship
+
 
 ## Project Understanding:
 **A data analyst sits between the business and the data.**
