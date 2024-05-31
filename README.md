@@ -1,15 +1,20 @@
-# Accenture-Data-Analytics-and-Visualization-Virtual-Internship
+![image](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/assets/42047546/324bcab3-94d1-4d8c-b375-4ae14f7a6786)![image](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/assets/42047546/80b060f2-313a-4e95-9d5c-6be544e62390)# Accenture-Data-Analytics-and-Visualization-Virtual-Internship
 ## Certificate:
 [Certificate](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Accenture%20North%20America_Data%20Analytics_completion_certificate.pdf)
 
-## Task - 1
-### Project Understanding:
+## Project Understanding:
 **A data analyst sits between the business and the data.**
 
  - One of Accenture’s Managing Directors, Mae Mulligan, is the client lead for Social Buzz.
  - She has reviewed the brief provided by Social Buzz and has assembled a diverse team of Accenture experts to deliver the project.
  - Mae has scheduled a project kick off call with the internal Accenture project team for tomorrow morning.
- - About Client : [Social Buzz](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data_Analytics%20Client%20Brief.pdf)
+ - About Client : [Social Buzz](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/blob/main/Data_Analytics%20Client%20Brief.pdf)
+ - The client has reached a massive scale within recent years and does not have the resources internally to handle it.
+ - Social Buzz receives over 100000 posts per day which amounts 36,500,000 posts every year, of which this all unstructured data making it very hard to make a sense.
+ - Identify the requirements that need to be delivered for this project.
+ - Merging of sample data set tables.
+ - An analysis of their content categories that   highlights the top 5 categories with the largest aggregate popularity
+
 
 #### Task for Accenture : 
 
@@ -24,9 +29,9 @@ Analysis of sample data sets with visualizations to understand the popularity of
 
 In short, the client wanted to see **“An analysis of their content categories showing the top 5 categories with the largest popularity”.** 
 
-## Task - 2
+## Tasks
  - Often you won’t need all these datasets to find what you’re looking for.
- - So, the first step is to use this [data model](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data%20model.pdf) to identify which datasets will be required to answer your business question - which is to to figure out the top 5 categories with the largest popularity.
+ - So, the first step is to use this [data model](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/blob/main/Data%20model.pdf) to identify which datasets will be required to answer your business question - which is to to figure out the top 5 categories with the largest popularity.
  - After Analysis we got data sets needed to complete analysis:
  >- Reaction Score(score is used to quantified the popularity)
  >- Content ID
@@ -35,39 +40,13 @@ In short, the client wanted to see **“An analysis of their content categories 
  >- Category
  
 ### Data Cleaning:
-#### Clean the data by:
- - removing rows that have values which are missing,
- - changing the data type of some values within a column, and
- - removing columns which are not relevant to this task.
- - - Think about how each column might be relevant to the business question you’re investigating. If you can’t think of why a column may be useful, it may not be worth including it.
+- Corrected irregular datatypes and converted date column to date format.
+- Removed rows with NULL Reaction Types and unnecessary columns.
+- Added Time of the Day column to analyze most active time.
+- Corrected Content categories that had duplicate values like “animals” and Animals to a standard format ANIMALS.
+- Used DAX in Power BI to form measures where AVERAGEX(),RELATED() and SUMX() function were used.
+- Initially used VLOOKUP() in Excel and Power Query Merge to combine all datasets in to the base (reactions). However, data modelling was preferred.
+- ![Data Model](https://github.com/Swam80/Accenture_Forage_Virtual_Internship/assets/42047546/66759553-3693-42b7-a83f-5f93563b6309)
 
-**End result will be three cleaned data set :**
- - [Reaction Types](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/ReactionTypes.csv)
- - [Reactions](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Reactions.csv)
- - [Content](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Content.csv)
-
-### Data Modelling:
-
-**Create a final data set by merging 3 tables**
-
-**End result will be one spreadsheet**
- - A cleaned dataset
- - Top 5 categories
- 
- ### Cleaned Data set:
- So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Cleaned%20Dataset.xlsx)
- 
- ## Task - 3
- ### Data Visualization and Storytelling:
- **Make the Powerpoint presentation as per the given template**
- 
- **Charts Involved :**
-  >- Pie Chart
-  >- Bar Chart
-  
- - Powerpoint Presentation : [PPT](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/PowerPoint%20presentation.pptx)
- 
- ## Task - 4
- ### Present to the Client:
- **Present your powerpoint presentation to the client and deliver the insights of your analysis** 
+##
  
